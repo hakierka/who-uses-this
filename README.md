@@ -23,6 +23,8 @@ Writes `data/users.json` and `out/segments.md`. Read the markdown. That is the a
 
 ![16 segments, 480 people](shots/segments.png)
 
+![Workshop: 45 minutes, their files, then stop](shots/workshop.png)
+
 `workshop.md` is the 45-minute version I would actually run, not a enablement framework.
 
 ## why 16
