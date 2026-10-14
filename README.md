@@ -1,8 +1,8 @@
 # who-uses-this
 
-Internal tools die because twelve people use them every day and everyone else tried once in April.
+**Synthetic.** `generate.py` builds 480 fake people with seed 7 (`p001`…`p480`). No real names, no real teams, no company dump.
 
-I cannot publish the interviews or the usage dump. This is the method, on fake people:
+Internal tools die because twelve people use them every day and everyone else tried once in April. I cannot publish the interviews or the usage dump. This is the method:
 
 1. ~480 accounts on an internal LLM tool
 2. 16 segments I would actually write slack messages for
