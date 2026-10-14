@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>who-uses-this — 16 segments</title>
+<style>
+  :root { --bg:#190B33; --ink:#FFF6EC; --muted:#BBA9DD; --pink:#FF2E88; --blue:#2B59FF; --orange:#FF8A3D; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font: 14px/1.4 "Space Grotesk", system-ui, sans-serif; padding:28px 32px; width:920px; }
+  h1 { font: 700 22px/1.2 ui-monospace, Menlo, monospace; margin:0 0 6px; }
+  .sub { color:var(--muted); margin:0 0 8px; font-family: ui-monospace, Menlo, monospace; font-size:13px; }
+  .stats { color:var(--pink); font-family: ui-monospace, Menlo, monospace; margin:0 0 18px; }
+  .row { display:grid; grid-template-columns: 220px 1fr 44px; gap:10px; align-items:center; margin:0 0 7px; }
+  .name { font-family: ui-monospace, Menlo, monospace; font-size:12px; }
+  .bar { height:14px; background:#2a1650; border:2px solid var(--ink); }
+  .bar > i { display:block; height:100%; background:var(--blue); }
+  .bar.hot > i { background:var(--orange); }
+  .bar.now > i { background:var(--pink); }
+  .n { text-align:right; font-family: ui-monospace, Menlo, monospace; }
+</style>
+</head>
+<body>
+<h1>who-uses-this · fake company, 480 people</h1>
+<p class="sub">internal LLM tool. seed 7. not a real org.</p>
+<p class="stats">92 weekly · 163 never · 38 champions</p>
+<div class="row"><span class="name">weekly-wrong-data</span><div class="bar hot"><i style="width:33%"></i></div><span class="n">21</span></div>
+<div class="row"><span class="name">weekly-happy-champions</span><div class="bar"><i style="width:46%"></i></div><span class="n">29</span></div>
+<div class="row"><span class="name">weekly-happy-not-champion</span><div class="bar"><i style="width:62%"></i></div><span class="n">39</span></div>
+<div class="row"><span class="name">monthly-wrong-data</span><div class="bar hot"><i style="width:44%"></i></div><span class="n">28</span></div>
+<div class="row"><span class="name">monthly-dont-trust</span><div class="bar now"><i style="width:24%"></i></div><span class="n">15</span></div>
+<div class="row"><span class="name">monthly-ok</span><div class="bar"><i style="width:100%"></i></div><span class="n">63</span></div>
+<div class="row"><span class="name">once-dont-trust</span><div class="bar now"><i style="width:37%"></i></div><span class="n">23</span></div>
+<div class="row"><span class="name">once-wrong-data</span><div class="bar hot"><i style="width:24%"></i></div><span class="n">15</span></div>
+<div class="row"><span class="name">once-dont-know-how</span><div class="bar now"><i style="width:81%"></i></div><span class="n">51</span></div>
+<div class="row"><span class="name">never-dont-know-how</span><div class="bar now"><i style="width:63%"></i></div><span class="n">40</span></div>
+<div class="row"><span class="name">never-doesnt-exist</span><div class="bar"><i style="width:71%"></i></div><span class="n">45</span></div>
+<div class="row"><span class="name">never-no-time</span><div class="bar"><i style="width:59%"></i></div><span class="n">37</span></div>
+<div class="row"><span class="name">legal-trust</span><div class="bar now"><i style="width:10%"></i></div><span class="n">6</span></div>
+<div class="row"><span class="name">investment-light</span><div class="bar"><i style="width:60%"></i></div><span class="n">38</span></div>
+<div class="row"><span class="name">office-ignore</span><div class="bar"><i style="width:48%"></i></div><span class="n">30</span></div>
+</body>
+</html>

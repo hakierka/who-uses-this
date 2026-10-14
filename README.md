@@ -21,6 +21,8 @@ python3 cluster.py
 
 Writes `data/users.json` and `out/segments.md`. Read the markdown. That is the artefact.
 
+![16 segments, 480 people](shots/segments.png)
+
 `workshop.md` is the 45-minute version I would actually run, not a enablement framework.
 
 ## why 16
